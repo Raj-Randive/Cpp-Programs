@@ -58,8 +58,6 @@ class ScientificCalculator{
 
 class HybridCalculator : public SimpleCalculator, public ScientificCalculator{
 
-
-
 };
 
 
@@ -81,8 +79,6 @@ int main()
     cout << "\n"<<endl;
     h1.getDataScientific();
     h1.performOperationsScientific();
-
-    
 
     return 0;
 }
